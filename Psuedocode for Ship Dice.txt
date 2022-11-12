@@ -1,0 +1,78 @@
+random Selection
+
+prompt for num roll dice 
+    result = ()
+    result= random.randint 1,6
+    Diplay = results 
+
+Display = Welcome to Ship Dice Game
+Display = -------------------------
+Display = 'rules = "Each player rolls six dice. They need a ‘ship’ (6), a ‘captain’ (1) and crew. If they have a ship and captain in their roll, their crew (score) is the sum of all the other dice. If they do not have a ship and captain they can roll again, keeping a ‘ship’ if they have one and only rolling five dice. If on their second roll they still have no ship and captain their score is 0. The highest score wins')
+
+number of players = 0
+
+while 
+    True:
+    
+     players input= Welcome to the game how many players are there?
+
+    Repeat
+        
+        Players  = int(num_players)
+        
+        IF Players > 0 and  <= 4
+           
+    Repeat
+         Display = please eneter an invalid value
+    
+    	Repeat      
+        Display = Please a invalid value
+
+
+
+scores of the players  = [0] * number of players
+currentplayer = 0
+
+While    
+    Score = 0
+    roll dices (6)
+
+    
+    IF 1 rolls and 6 
+        turn rolls = turn rolls.index1
+        turn rolls = turn rolls.index6
+        score = sum
+   
+    Elseif 6 in turn_rolls:
+           turn_rolls = roll dice 5
+        IF 1 in turn_rolls:
+         turn_rolls = turn rolls.index1
+           score = sum
+
+    
+    Elseif 
+        turn rolls = roll dice(6)
+        IF 1 in turncrolls and 6 in turn rolls:
+            turn rolls= turn rolls.index 1
+            turn rolls = turn rolls.index 6
+            score = sum
+
+    Display = Players score
+      scores = turn score
+
+      
+    IF  winner = scores maximum value
+        Display = winner
+
+        playagain 
+          Display = Play again Y or N ?
+        IF play again = Y
+            
+        Elseif 
+            Display = Bye
+       
+
+   Endwhile       
+         Endif  
+
+End
